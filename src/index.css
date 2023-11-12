@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Mulish:wght@300;400&family=Roboto:wght@500&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 20% 0 20%;
+  width: 60%;
+  height: 100vh;
+  background-image: linear-gradient(to top, #F2F5F8 74%, #6271d2 26%);
+}
+
+code {
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+/* font-family: 'Anonymous Pro', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
