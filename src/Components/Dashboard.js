@@ -63,7 +63,7 @@ const Dashboard = () => {
 							classes["font-bold"]
 						}
 					>
-						EARNINGS
+						earnings
 					</p>
 					<p className={classes["price-container"]}>
 						<span className={classes.price + " " + classes["gray-font"]}>

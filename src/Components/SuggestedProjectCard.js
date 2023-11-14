@@ -1,8 +1,7 @@
 import classes from "./SuggestedProjectCard.module.css";
-import { SuggestedProjectsArray } from "../Constants";
 
-const SuggestedProjectsCard = () => {
-	return SuggestedProjectsArray.map((data) => (
+const SuggestedProjectsCard = ({projects}) => {
+	return projects.map((data) => (
 		<li key={data.id}>
 			<div className={classes.card}>
 				<div className={classes.header}>

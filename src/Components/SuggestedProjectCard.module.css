@@ -34,13 +34,18 @@
   width: 63%;
 }
 
+.name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .name, .timestamp {
   margin: 0;
+  color: #42505c;
 }
 
 .timestamp {
   font-size: 13px;
-  color: #8D99A4;
 }
 
 .container {
@@ -70,6 +75,7 @@ hr {
 .description > p {
   color: #42505C;
   margin: 30px 0;
+  font-size: 16px;
   height: 50px;
 }
 
@@ -116,6 +122,6 @@ hr {
 .price {
   text-align: right;
   float: right;
-  /* width:(100% - 140px); */
-  /* width: 30%; */
+  font-size: larger;
+  color: #42505c;
 }
