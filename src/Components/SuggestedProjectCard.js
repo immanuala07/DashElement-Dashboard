@@ -1,6 +1,8 @@
+import React from "react";
 import classes from "./SuggestedProjectCard.module.css";
 
-const SuggestedProjectsCard = ({projects}) => {
+const SuggestedProjectsCard = ({ projects }) => {
+
 	return projects.map((data) => (
 		<li key={data.id}>
 			<div className={classes.card}>
@@ -38,4 +40,4 @@ const SuggestedProjectsCard = ({projects}) => {
 	));
 };
 
-export default SuggestedProjectsCard;
+export default React.memo(SuggestedProjectsCard);

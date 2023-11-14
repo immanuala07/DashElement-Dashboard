@@ -125,3 +125,16 @@ hr {
   font-size: larger;
   color: #42505c;
 }
+
+@media only screen and (max-width: 1720px){
+  .card {
+    /* position: absolute; */
+    /* top:0%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    box-sizing:content-box;
+    padding: 20px;
+    height: 220px;
+    border-radius: 10px;
+  }  
+}

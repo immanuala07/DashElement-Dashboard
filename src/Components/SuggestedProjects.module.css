@@ -9,13 +9,13 @@
   font-size: larger;
   font-family: inherit;
   font-weight: bold;
-  width: 70%;
+  width: 50%;
   color: #42505c;
 }
 
 .anchor {
   display: inline-block;
-  width: 30%;
+  width: 50%;
   text-align: right;
 }
 
@@ -29,7 +29,6 @@
   text-transform: uppercase;
   color: #79828B;
   font-size: 15px;
-  ;
   font-weight: 500;
   letter-spacing: 1.2px;
 }
@@ -49,4 +48,17 @@
   padding: 0;
   height: 100px;
   margin-top: 0;
+}
+
+@media only screen and (max-width: 1720px){
+  .cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    list-style-type: none;
+    row-gap: 25px;
+    width: 100%;
+  }
 }

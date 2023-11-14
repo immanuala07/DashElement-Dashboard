@@ -4,6 +4,7 @@ import oval from "../Images/egg.png";
 import bell from "../Images/bell.png";
 
 const Header = (props) => {
+
 	return (
 		<div className={classes["header-container"]}>
 			<div className={classes.header}>
@@ -17,14 +18,13 @@ const Header = (props) => {
 			</div>
 			<div className={classes["profile-container"]}>
 				<div className={classes.notification}>
-						<img
-							className={classes.bell}
-							alt="notification"
-							src={bell}
-						/>
+					<img
+						className={classes.bell}
+						alt="notification"
+						src={bell}
+					/>
 					<span className={classes["badge-count"]}>3</span>
 				</div>
-
 				<p className={classes.user}>Alex Doe</p>
 				<select className={classes["custom-select"]}></select>
 			</div>
@@ -32,4 +32,4 @@ const Header = (props) => {
 	);
 };
 
-export default Header;
+export default React.memo(Header);

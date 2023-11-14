@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Mulish:wght@300;400&family=Roboto:wght@500&display=swap');
 
-
 body {
   margin: 0;
   font-family: 'Mulish', sans-serif;
@@ -10,6 +9,7 @@ body {
   width: 60%;
   height: 100vh;
   background-image: linear-gradient(to top, #F2F5F8 74%, #6271d2 26%);
+  background-repeat: no-repeat;
 }
 
 code {

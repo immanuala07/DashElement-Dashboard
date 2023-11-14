@@ -1,4 +1,6 @@
+import React from "react";
 import Chart from "react-apexcharts";
+
 import classes from "./Dashboard.module.css";
 import star from "../Images/star.png";
 import code from "../Images/code.png";
@@ -49,7 +51,8 @@ const chartData = {
 	}
 };
 
-const Dashboard = () => {
+const Dashboard = (props) => {
+
 	return (
 		<div className={classes.cards}>
 			<div className={classes.card + " " + classes.earnings}>
@@ -138,4 +141,4 @@ const Dashboard = () => {
 	);
 };
 
-export default Dashboard;
+export default React.memo(Dashboard);

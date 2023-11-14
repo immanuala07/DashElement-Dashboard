@@ -1,5 +1,8 @@
+import React from "react";
 import classes from "./NavigationBar.module.css";
-const NavigationBar = () => {
+
+const NavigationBar = (props) => {
+
 	return (
 		<div className={classes.topnav}>
 			<a
@@ -16,4 +19,4 @@ const NavigationBar = () => {
 	);
 };
 
-export default NavigationBar;
+export default React.memo(NavigationBar);
