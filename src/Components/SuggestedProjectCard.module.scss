@@ -1,15 +1,15 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  box-sizing:content-box;
+  box-sizing: content-box;
   padding: 20px;
   max-width: 355px;
   height: 220px;
   border-radius: 10px;
-}
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
 }
 
 .header {
@@ -30,21 +30,20 @@
 .profile-container {
   box-sizing: border-box;
   padding: 5px 0;
-  height:inherit;
+  height: inherit;
   width: 63%;
 }
 
 .name {
   font-weight: 600;
   font-size: 16px;
-}
-
-.name, .timestamp {
   margin: 0;
   color: #42505c;
 }
 
 .timestamp {
+  margin: 0;
+  color: #42505c;
   font-size: 13px;
 }
 
@@ -55,11 +54,11 @@
 .image {
   width: 50px;
   height: 50px;
-  margin-right: 10px;;
+  margin-right: 10px;
 }
 
 hr {
-  opacity: 0.25
+  opacity: 0.25;
 }
 
 .tag {
@@ -80,20 +79,17 @@ hr {
 }
 
 .units {
-  height:40px;
+  height: 40px;
   width: 100%;
   margin: 10px 0;
 }
 
-
-.eth,
-.btc,
-.price {
+.eth, .btc, .price {
   display: inline-block;
   padding: 10px;
   font-weight: bold;
   vertical-align: middle;
-  margin:0;
+  margin: 0;
 }
 
 .eth {
@@ -109,7 +105,7 @@ hr {
 .btc {
   width: 60px;
   background-color: #FAF3EF;
-  color:#D28E62;
+  color: #D28E62;
   font-weight: bold;
   text-align: center;
   border-radius: 20px;
@@ -126,15 +122,15 @@ hr {
   color: #42505c;
 }
 
-@media only screen and (max-width: 1720px){
+@media only screen and (max-width: 1720px) {
   .card {
     /* position: absolute; */
     /* top:0%; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    box-sizing:content-box;
+    box-sizing: content-box;
     padding: 20px;
     height: 220px;
     border-radius: 10px;
-  }  
+  }
 }

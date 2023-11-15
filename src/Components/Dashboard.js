@@ -1,7 +1,7 @@
 import React from "react";
 import Chart from "react-apexcharts";
 
-import classes from "./Dashboard.module.css";
+import classes from "./Dashboard.module.scss";
 import star from "../Images/star.png";
 import code from "../Images/code.png";
 

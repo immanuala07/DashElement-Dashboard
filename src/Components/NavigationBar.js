@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./NavigationBar.module.css";
+import classes from "./NavigationBar.module.scss";
 
 const NavigationBar = (props) => {
 

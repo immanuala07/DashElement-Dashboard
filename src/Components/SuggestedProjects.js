@@ -1,7 +1,7 @@
 import React from "react";
 import SuggestedProjectsCard from "./SuggestedProjectCard";
 
-import classes from "./SuggestedProjects.module.css";
+import classes from "./SuggestedProjects.module.scss";
 import arrow from "../Images/right-arrow.png";
 
 import { SuggestedProjectsArray } from "../Constants";

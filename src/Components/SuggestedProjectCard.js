@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./SuggestedProjectCard.module.css";
+import classes from "./SuggestedProjectCard.module.scss";
 
 const SuggestedProjectsCard = ({ projects }) => {
 

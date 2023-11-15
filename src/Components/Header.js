@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Header.module.css";
+import classes from "./Header.module.scss";
 import oval from "../Images/egg.png";
 import bell from "../Images/bell.png";
 
